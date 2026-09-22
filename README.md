@@ -63,5 +63,3 @@ Abra sua IDE (como VS Code), certifique-se de que o kernel do Jupyter está usan
 1. Rodar `create_data.ipynb`
 2. Rodar `ingestao_neo4j.ipynb`
 3. Rodar `agente_groq.ipynb` para interagir com o agente financeiro.
-
-Após salvar o arquivo com essa formatação corrigida, você pode registrar a evolução no Git executando no terminal:
