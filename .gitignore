@@ -1,0 +1,4 @@
+.env
+*.csv
+.venv
+neo4j_data
