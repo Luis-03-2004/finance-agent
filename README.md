@@ -1,4 +1,4 @@
-# Assistente Financeiro (GraphRAG) - Batalha de Agentes Itaú
+# Assistente Financeiro (GraphRAG)
 
 Este é um MVP (Produto Mínimo Viável) desenvolvido com o objetivo é criar um assistente financeiro inteligente que utiliza uma arquitetura **GraphRAG**, para que o usuário consulte seu extrato bancário, que é traduzida instantaneamente para consultas em um banco de dados de grafos.
 
