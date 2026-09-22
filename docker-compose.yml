@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  neo4j:
+    image: neo4j:5.14.0-community
+    container_name: neo4j-itau
+    restart: unless-stopped
+    ports:
+      - "7474:7474"  # Porta do painel visual no navegador
+      - "7687:7687"  # Porta da conexão do nosso código Python
+    environment:
+      - NEO4J_AUTH=neo4j/itau1234  # Usuário e senha padrão
+      - NEO4J_PLUGINS=["apoc"]
+    volumes:
+      - ./neo4j_data:/data  # Salva os dados na sua máquina para não perder ao reiniciar
