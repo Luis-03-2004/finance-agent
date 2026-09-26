@@ -1,4 +1,4 @@
-# AAssistente Financeiro (GraphRAG + ReAct Agent)
+# Assistente Financeiro (GraphRAG + ReAct Agent)
 
 Este projeto evoluiu de um MVP de GraphRAG para uma arquitetura de **Agente Autônomo (ReAct)**. O assistente financeiro permite que o usuário consulte seu extrato bancário (buscando dados em um grafo), faça simulações matemáticas e mantenha o contexto da conversa, tudo através de uma interface web fluida com latência otimizada por cache semântico.
 
@@ -29,7 +29,7 @@ Este projeto evoluiu de um MVP de GraphRAG para uma arquitetura de **Agente Aut�
 ### 2. Configuração do Ambiente Virtual
 Clone este repositório e crie um ambiente virtual Python isolado:
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/Luis-03-2004/finance-agent.git
 cd hacka-training
 
 # Criação do ambiente virtual
